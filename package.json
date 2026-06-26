@@ -25,7 +25,9 @@
 	"engines": {
 		"node": ">=22.12.0"
 	},
-	"packageManager": "pnpm@11.6.0",
+	"pnpm": {
+		"onlyBuiltDependencies": ["esbuild", "sharp", "workerd"]
+	},
 	"private": true,
 	"scripts": {
 		"astro": "astro",

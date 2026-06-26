@@ -1,11 +1,4 @@
 allowBuilds:
-  esbuild: true
-  sharp: true
-  workerd: true
-minimumReleaseAgeExclude:
-  - miniflare@4.20260529.0
-  - wrangler@4.96.0
-  - '@astrojs/cloudflare@14.0.1'
-  - astro@7.0.3
-  - miniflare@4.20260625.0
-  - wrangler@4.105.0
+  esbuild: set this to true or false
+  sharp: set this to true or false
+  workerd: set this to true or false
